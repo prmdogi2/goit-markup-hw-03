@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  line-height: 1.5;
+  margin: 0;
+}
+body p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+address a:hover {
+  color: #4d5ae5;
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+header .logo .logo-accent {
+  color: #2e2f42;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+header address ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+header address a {
+  text-decoration: none;
+  color: #434455;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #4d5ae5;
+  letter-spacing: 3%;
+}
+.logo .logo-accent {
+  color: #2e2f42;
+}
+
+.hero {
+  background-color: #2e2f42;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #4d5ae5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #4d5ae5;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.features li {
+  margin-bottom: 40px;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.ourteam {
+  font-size: 36px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.team ul {
+  list-style: none;
+  display: flex;
+
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+}
+
+.portfolio ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+}
+.ourport {
+  font-size: 36px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  padding: 40px 20px;
+  text-align: left;
+}
+.logo-accent-active {
+  color: #f4f4fd;
+}
